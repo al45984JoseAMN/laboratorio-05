@@ -5,13 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 5</title>
     <style>
-               
+        /*estilo de tabla*/
+          table{
+            border: 2px solid rgb(0, 0, 0);
+          }
+          td{
+            border-style: ;
+            border: 5px dashed violet;
+            text-align: center;
+          }
+          #encabezado{
+            background-color: aqua;
+            color: aliceblue;
+          }
+          table td:first-child{
+            background-color: aqua;
+             color: rgb(136, 103, 243);
+          }
+          table tr:nth-child(even){
+            background-color: gray;
+          }
+
+          table td span :nth-child(1){
+            color: greenyellow;
+          }
+
+          table td span :nth-child(2){
+            color: rgb(255, 47, 47);
+          }
+
+          table td input.  
+          table td span :nth-child(3){
+            color: rgb(47, 89, 255);
+          }
+
+          
+          table td span:hover{
+            font-style: italic;
+            background-color: blanchedalmond;
+          }
     </style>
 </head>
 <body>
     <form>
     <table border="2">
-        <thead>
+        <thead id="encabezado">
             <th>ID</th>
             <th>Nombre</th>
             <th>Apellido</th>
